@@ -1,0 +1,274 @@
+body{
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    height: 93%;
+
+}
+
+.lesBlok{
+    height: 100%;
+}
+
+.blok1{
+    width: 45%;
+    background-color: #decbc0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 5px 6px rgb(87, 87, 87);
+    z-index: 5;
+}
+
+
+#blok{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+    width: 70%;
+    border-radius: 10px;
+    background-color: rgb(247 239 235);
+    box-shadow: 1px 3px 8px rgb(71, 71, 71);
+
+}
+
+#user{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+#logoUser{
+    height: 128px;
+    width: 128px;
+    background-image: url(../asset/utilisateur.png);
+}
+#userBlok2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 60%;
+    width: 85%;
+    border-radius: 10px;
+}
+
+#formRecherche{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 30%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+#blokFormRecherche{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#submite{
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    border: none;
+    background-color: black;
+}
+#submite:hover{
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}
+
+.lesChoix{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+.choix{
+    height: 30px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 255, 0);
+}
+.choix:hover{
+    background-color: #cacaca;
+}
+
+
+
+#blokBoutton{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 55%;
+    width: 100%;
+}
+
+
+
+
+button{
+    background-color: #fff;
+    height: 30%;
+    width: 100%;
+    border: 1px solid rgb(231, 231, 231);
+}
+button:hover{
+    background-color: #cfcfcf;
+}
+#bouton1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#bouton2{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+
+
+.blok2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    background-image: url(../asset/andrik-langfield-N8Bqv6hfvow-unsplash.jpg);
+    background-position-y: -70px;
+    background-position-X: -550px;
+}
+
+#affUser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: rgba(246, 246, 246, 0.63);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 22px; */
+    width: 100%;
+    overflow: hidden;
+  }
+  .carousel-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    transition: transform 0.5s ease;
+  }
+  .carousel-prev, .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.253);
+    border-radius: 50px;
+    cursor: pointer;
+  }
+.carousel-prev:hover, .carousel-next:hover{
+    background-color: rgb(42, 42, 42);
+    color: #fff;
+}
+
+
+  .carousel-prev::after {
+    content: ">";
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .carousel-next::after {
+    content: "<";
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+
+  .carte{
+    height: 200px;
+    margin: 50px;
+    margin-left: 111px;
+    padding: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(247 239 235);
+    box-shadow: 1px 3px 8px rgb(71, 71, 71);
+}
+
+#logoUsers{
+    height: 100px;
+    width: 18px;
+    padding: 55px;
+    background-image: url(../asset/utilisateur.png);
+
+}
+
+h3{
+    display: flex;
+    /* background-color: green; */
+    flex-direction: row;
+    width: 190px;
+    justify-content: center;
+}
+#pre{
+    position: relative;
+    top: -207px;
+    left: 260px;
+}
+#next{
+    position: relative;
+    top: -260px;
+    left: -260px;
+}
